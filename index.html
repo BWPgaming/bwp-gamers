@@ -26,7 +26,17 @@ input,textarea,select{width:100%;padding:12px;border:1px solid #29405b;border-ra
 label{font-size:13px;color:#b9cbe0;font-weight:700}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.admin-list{display:grid;gap:10px;margin-top:18px}.admin-row{display:flex;align-items:center;justify-content:space-between;gap:12px;background:#111f31;padding:12px;border-radius:9px}.admin-row small{color:var(--muted)}
 .notice{background:#132943;border:1px solid #24527a;color:#cbe7ff;padding:12px;border-radius:9px;line-height:1.5;margin:12px 0}
 .hidden{display:none!important}.actions{display:flex;gap:8px;flex-wrap:wrap}.price{color:#78e6ad;font-weight:900}
-@media(max-width:600px){.form-grid{grid-template-columns:1fr}.hero{padding:38px 18px}.admin-row{align-items:flex-start;flex-direction:column}}
+@media(max-width:600px){
+.form-grid{grid-template-columns:1fr}
+.hero{padding:38px 18px}
+.admin-row{align-items:flex-start;flex-direction:column}
+.hero .btn{
+display:block;
+width:100%;
+margin:10px 0 !important;
+text-align:center;
+}
+}
 </style>
 </head>
 <body>
