@@ -1,77 +1,89 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="BWP GAMERS — Free Fire tips, tricks and sensitivity guides in Roman Urdu and English.">
-<title>BWP GAMERS | Free Fire Tips & Sensi</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BWP GAMING | Free Sensi & Gaming Tips</title>
+<meta name="description" content="BWP GAMING - Free sensitivity settings, premium sensi and gaming tips.">
 <style>
-:root{--bg:#050b16;--panel:#0b1729;--panel2:#10223b;--blue:#2698ff;--cyan:#71c5ff;--text:#f3f8ff;--muted:#a9bad0;--line:#1b385b}
-*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 80% 0%,#102d50 0,transparent 32%),var(--bg);color:var(--text);font:16px/1.6 Arial,sans-serif}
-a{color:inherit;text-decoration:none}.wrap{width:min(1100px,92%);margin:auto}
-header{position:sticky;top:0;z-index:5;background:#050b16eF;border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}
-.nav{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:14px 0}.brand{font-size:1.35rem;font-weight:900;letter-spacing:1px;color:var(--cyan)}.brand span{color:white}
-nav{display:flex;gap:18px;flex-wrap:wrap;color:var(--muted);font-size:.93rem}nav a:hover{color:white}
-.btn{display:inline-flex;align-items:center;justify-content:center;padding:11px 17px;border-radius:10px;background:linear-gradient(135deg,#1689ff,#0754bd);color:white;font-weight:800;border:1px solid #55b4ff;cursor:pointer}.btn.ghost{background:transparent;border-color:var(--line);color:var(--cyan)}
-.hero{padding:76px 0 55px;display:grid;grid-template-columns:1.25fr .75fr;gap:30px;align-items:center}
-.tag{display:inline-block;color:var(--cyan);border:1px solid #235b91;background:#0a1d33;padding:5px 11px;border-radius:99px;font-size:.8rem;font-weight:700}
-h1{font-size:clamp(2.5rem,7vw,5rem);line-height:1.02;margin:18px 0}h1 em{font-style:normal;color:var(--blue);text-shadow:0 0 25px #1689ff66}
-.lead{color:var(--muted);max-width:620px;font-size:1.08rem}.hero-art{min-height:270px;border:1px solid #245184;border-radius:24px;background:linear-gradient(145deg,#102c4e,#071222 70%);display:grid;place-items:center;text-align:center;padding:28px;box-shadow:0 20px 70px #006eff20}
-.hero-art strong{font-size:2.2rem;line-height:1.1;color:var(--cyan)}.hero-art small{color:var(--muted);letter-spacing:3px}
-section{padding:38px 0}.section-title{font-size:1.8rem;margin:0 0 5px}.sub{color:var(--muted);margin:0 0 22px}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:linear-gradient(160deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:17px;padding:21px}.card h3{margin:0 0 8px}.card p{color:var(--muted);margin:0 0 15px}.price{font-size:2rem;font-weight:900;color:var(--cyan)}.price small{font-size:.85rem;color:var(--muted)}
-ul{padding-left:20px;color:var(--muted)}.tips-list{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.tip{background:#0a1728;border:1px solid var(--line);border-radius:13px;padding:17px}.tip h3{margin:0 0 5px}.tip p{margin:0;color:var(--muted)}
-.cta{background:linear-gradient(110deg,#0b2d50,#0b1729);border:1px solid #245184;border-radius:20px;padding:27px;display:flex;align-items:center;justify-content:space-between;gap:20px}
-footer{border-top:1px solid var(--line);padding:25px 0;color:var(--muted);font-size:.9rem;margin-top:40px}
-.admin-open{position:fixed;right:16px;bottom:16px;z-index:7;box-shadow:0 5px 25px #0009}
-dialog{border:1px solid #2c5b8d;border-radius:18px;background:#081525;color:var(--text);width:min(680px,94vw);max-height:88vh;overflow:auto;padding:22px}
-dialog::backdrop{background:#000b;backdrop-filter:blur(4px)}.admin-head{display:flex;justify-content:space-between;align-items:center}.admin-head h2{margin:0}.close{background:none;border:0;color:white;font-size:1.5rem;cursor:pointer}
-label{display:block;font-weight:700;margin:12px 0 5px}input,textarea{width:100%;background:#050d19;color:white;border:1px solid #294766;border-radius:9px;padding:11px;font:inherit}textarea{min-height:90px}.admin-note{background:#2b210b;border:1px solid #74551a;color:#ffe2a0;padding:12px;border-radius:10px;font-size:.9rem;margin:14px 0}
-.admin-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:15px}.hidden{display:none!important}
-@media(max-width:760px){.hero{grid-template-columns:1fr;padding-top:48px}.grid{grid-template-columns:1fr}.tips-list{grid-template-columns:1fr}.cta{align-items:flex-start;flex-direction:column}.nav{align-items:flex-start;flex-direction:column}nav{gap:12px}}
+:root{--bg:#070b14;--panel:#101827;--panel2:#0c1422;--blue:#168bff;--cyan:#35d5ff;--text:#eef6ff;--muted:#9db0c7;--line:#20344d;--danger:#ff5268}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 80% 0%,#10294a 0,transparent 34%),var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif}
+header{position:sticky;top:0;z-index:5;background:#080e19ed;border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}
+.nav{max-width:1150px;margin:auto;padding:16px 20px;display:flex;align-items:center;justify-content:space-between;gap:15px;flex-wrap:wrap}
+.logo{font-size:23px;font-weight:900;letter-spacing:1px}.logo span{color:var(--cyan)}
+nav{display:flex;gap:18px;flex-wrap:wrap}a{color:inherit;text-decoration:none}nav a{color:var(--muted);font-weight:700;font-size:14px}nav a:hover{color:var(--cyan)}
+button,.btn{border:0;border-radius:9px;padding:11px 16px;background:linear-gradient(100deg,var(--blue),#075bc7);color:white;font-weight:800;cursor:pointer}
+button.secondary,.btn.secondary{background:#1a2b42;border:1px solid var(--line)}button.danger{background:#8f2435}
+main{max-width:1150px;margin:auto;padding:28px 20px 70px}.hero{padding:55px 28px;border:1px solid #1c4267;border-radius:20px;background:linear-gradient(120deg,#102d50,#0b1422 70%);text-align:center}
+.eyebrow{color:var(--cyan);font-weight:900;letter-spacing:3px;font-size:12px}.hero h1{font-size:clamp(34px,6vw,60px);margin:12px 0}.hero p{max-width:650px;margin:0 auto 22px;color:var(--muted);line-height:1.7}
+.section{margin-top:42px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:15px;flex-wrap:wrap}.section h2{font-size:27px;margin:0 0 7px}.sub{color:var(--muted);margin:0 0 18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(235px,1fr));gap:17px}.card{background:linear-gradient(160deg,var(--panel),var(--panel2));border:1px solid var(--line);border-radius:15px;overflow:hidden}
+.card img{width:100%;height:190px;object-fit:cover;background:#101c2d;display:block}.card-body{padding:16px}.card h3{margin:0 0 8px}.card p{color:var(--muted);line-height:1.55;white-space:pre-wrap}.tag{display:inline-block;color:var(--cyan);font-size:12px;font-weight:900;margin-bottom:8px}
+.empty{padding:25px;border:1px dashed var(--line);border-radius:12px;color:var(--muted);text-align:center}
+footer{border-top:1px solid var(--line);padding:25px;text-align:center;color:var(--muted)}
+.modal{display:none;position:fixed;inset:0;background:#000b;z-index:10;overflow:auto;padding:20px}.modal.show{display:block}.dialog{max-width:850px;margin:35px auto;background:#0d1726;border:1px solid var(--line);border-radius:16px;padding:22px}
+input,textarea,select{width:100%;padding:12px;border:1px solid #29405b;border-radius:8px;background:#07101c;color:white;margin:6px 0 14px;font:inherit}
+label{font-size:13px;color:#b9cbe0;font-weight:700}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.admin-list{display:grid;gap:10px;margin-top:18px}.admin-row{display:flex;align-items:center;justify-content:space-between;gap:12px;background:#111f31;padding:12px;border-radius:9px}.admin-row small{color:var(--muted)}
+.notice{background:#132943;border:1px solid #24527a;color:#cbe7ff;padding:12px;border-radius:9px;line-height:1.5;margin:12px 0}
+.hidden{display:none!important}.actions{display:flex;gap:8px;flex-wrap:wrap}.price{color:#78e6ad;font-weight:900}
+@media(max-width:600px){.form-grid{grid-template-columns:1fr}.hero{padding:38px 18px}.admin-row{align-items:flex-start;flex-direction:column}}
 </style>
 </head>
 <body>
-<header><div class="wrap nav"><a class="brand" href="#"><span>BWP</span> GAMING</a><nav><a href="#tips">Tips & Tricks</a><a href="#sensi">Sensi</a><a href="#about">About</a><a href="#community">Community</a></nav></div></header>
-<main class="wrap">
-<section class="hero">
- <div><span class="tag">FREE FIRE COMMUNITY</span><h1>PLAY SMART.<br><em>AIM BETTER.</em></h1><p class="lead">Welcome to BWP GAMERS! Yahan Free Fire tips, gameplay tricks aur sensitivity guides Roman Urdu + English mein milengi.</p><a class="btn" href="#sensi">Explore Sensi</a> <a class="btn ghost" href="https://chat.whatsapp.com/E6Pk7tfpFMBCUyYcOe2Ob6" target="_blank" rel="noopener">Join WhatsApp</a></div>
- <div class="hero-art"><div><strong>BWP<br>GAMING</strong><br><small>SKILL • PRACTICE • IMPROVE</small></div></div>
-</section>
-<section id="sensi"><h2 class="section-title">Sensitivity Packages</h2><p class="sub">Apne device aur play style ke mutabiq settings ko test aur adjust karein.</p>
-<div class="grid">
- <article class="card"><span class="tag">FREE</span><h3>Normal Sensi</h3><div class="price">Rs. 0</div><p>Basic sensitivity guide — free access for everyone.</p><ul><li>Starter settings guide</li><li>Adjustment tips</li><li>Practice recommendations</li></ul><a class="btn ghost" href="#tips">View Free Tips</a></article>
- <article class="card"><span class="tag">PREMIUM</span><h3>Heavy Sensi Guide</h3><div class="price">Rs. 100</div><p>Premium customized guide. WhatsApp group mein details discuss karein.</p><ul><li>Device-based guidance</li><li>Personal settings discussion</li><li>How-to-adjust instructions</li></ul><a class="btn" href="https://chat.whatsapp.com/E6Pk7tfpFMBCUyYcOe2Ob6" target="_blank" rel="noopener">Ask About Premium</a></article>
- <article class="card"><span class="tag">COMMUNITY</span><h3>Join BWP Players</h3><div class="price">FREE</div><p>Community updates, new guides aur gaming discussions.</p><a class="btn ghost" href="https://chat.whatsapp.com/E6Pk7tfpFMBCUyYcOe2Ob6" target="_blank" rel="noopener">Join WhatsApp Group</a></article>
-</div></section>
-<section id="tips"><h2 class="section-title">Tips & Tricks</h2><p class="sub">Yahan apni latest guides publish karo.</p><div id="tipsList" class="tips-list">
- <article class="tip"><h3>1. Practice Your Aim</h3><p>Training mode mein regular practice karo. Apni comfort ke mutabiq sensitivity ko dheere dheere adjust karo.</p></article>
- <article class="tip"><h3>2. Learn Movement</h3><p>Movement aur positioning par focus karo. Har match ke baad apni gameplay review karo.</p></article>
-</div></section>
-<section id="about"><h2 class="section-title">About BWP GAMERS</h2><p class="sub">BWP GAMERS ek independent fan-made gaming information website hai. Hum tips, guides aur community updates share karte hain. Hum Garena se affiliated ya endorsed nahi hain.</p></section>
-<section id="community"><div class="cta"><div><h2 class="section-title">Join Our WhatsApp Community</h2><p class="sub">Updates aur premium guide ke bare mein poochne ke liye group join karo.</p></div><a class="btn" href="https://chat.whatsapp.com/E6Pk7tfpFMBCUyYcOe2Ob6" target="_blank" rel="noopener">Join Group</a></div></section>
+<header><div class="nav"><a class="logo" href="#">BWP <span>GAMING</span></a><nav><a href="#free">Free Sensi</a><a href="#premium">Premium Sensi</a><a href="#tips">Tips & Tricks</a></nav><button id="ownerBtn">Owner Panel</button></div></header>
+<main>
+<section class="hero"><div class="eyebrow">WELCOME TO BWP GAMING</div><h1>LEVEL UP YOUR GAME</h1><p>Free sensitivity settings, premium sensi and useful gaming tips — all in one place. Apni gameplay ko next level par le jao!</p><a class="btn" href="#free">Explore Sensi</a></section>
+<section class="section" id="free"><div class="section-head"><div><h2>Free Sensi</h2><p class="sub">Free sensitivity settings — Rs. 0</p></div></div><div class="grid" id="freeGrid"></div></section>
+<section class="section" id="premium"><div><h2>Premium Sensi</h2><p class="sub">Premium settings — Rs. 100</p></div><div class="grid" id="premiumGrid"></div></section>
+<section class="section" id="tips"><div><h2>Tips & Tricks</h2><p class="sub">Improve your skills with guides and images.</p></div><div class="grid" id="tipsGrid"></div></section>
 </main>
-<footer><div class="wrap">© <span id="year"></span> BWP GAMERS. Independent fan-made community. Free Fire is a trademark of its respective owner.</div></footer>
-<button class="btn admin-open" id="openAdmin">Owner Panel</button>
-<dialog id="adminDialog">
- <div class="admin-head"><h2>Owner Panel — Preview</h2><button class="close" id="closeAdmin" aria-label="Close">×</button></div>
- <div class="admin-note"><strong>Important:</strong> This is a local preview editor only. Changes are saved in this browser and are NOT published for visitors. Before launch, connect a real secure admin login and cloud database. Never use a shared/default password.</div>
- <label for="bannerText">Hero heading</label><input id="bannerText" value="PLAY SMART. AIM BETTER.">
- <label for="newTitle">New tip title</label><input id="newTitle" placeholder="e.g. Improve your movement">
- <label for="newBody">Tip instructions</label><textarea id="newBody" placeholder="Roman Urdu + English mein apni guide likho..."></textarea>
- <label for="bannerImage">Choose banner image (preview only)</label><input id="bannerImage" type="file" accept="image/*">
- <div class="admin-actions"><button class="btn" id="addTip">Add tip</button><button class="btn ghost" id="saveHeading">Save heading preview</button><button class="btn ghost" id="resetPreview">Reset preview</button></div>
- <p id="status" class="sub" aria-live="polite"></p>
-</dialog>
+<footer>© <span id="year"></span> BWP GAMING. All rights reserved.</footer>
+
+<div class="modal" id="ownerModal"><div class="dialog">
+<div class="section-head"><div><div class="eyebrow">PRIVATE AREA</div><h2>Owner Dashboard</h2></div><button class="secondary" id="closeModal">Close</button></div>
+<div class="notice">First setup: add your Supabase URL and anon key in this file's CONFIG section. Create your owner account in Supabase Authentication, then add its User UID to the <b>owner_users</b> table. Never put a service-role key in this website.</div>
+<div id="loginBox"><h3>Owner Login</h3><label>Email</label><input id="email" type="email" autocomplete="username"><label>Password</label><input id="password" type="password" autocomplete="current-password"><button id="loginBtn">Login</button><p id="loginMsg"></p></div>
+<div id="dashboard" class="hidden">
+<div class="actions"><button id="logoutBtn" class="secondary">Logout</button></div>
+<h3>Add / Update Content</h3>
+<form id="contentForm">
+<input type="hidden" id="itemId">
+<div class="form-grid"><div><label>Section</label><select id="category"><option value="free_sensi">Free Sensi</option><option value="premium_sensi">Premium Sensi</option><option value="tip">Tips & Tricks</option></select></div><div><label>Title</label><input id="title" required maxlength="100"></div></div>
+<label>Description / Details</label><textarea id="description" rows="4" required></textarea>
+<label>Photo (optional when editing)</label><input id="photo" type="file" accept="image/*">
+<label><input id="published" type="checkbox" checked style="width:auto;margin-right:8px">Publish on website</label>
+<div class="actions"><button type="submit">Save Content</button><button type="button" class="secondary" id="resetBtn">Clear</button></div><p id="formMsg"></p>
+</form><h3>Manage Website Content</h3><div id="adminList" class="admin-list"></div>
+</div></div></div>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script>
-const dialog=document.getElementById('adminDialog');
-document.getElementById('year').textContent=new Date().getFullYear();
-document.getElementById('openAdmin').onclick=()=>dialog.showModal();
-document.getElementById('closeAdmin').onclick=()=>dialog.close();
-function addTip(title,body){const card=document.createElement('article');card.className='tip';const h=document.createElement('h3');h.textContent=title;const p=document.createElement('p');p.textContent=body;card.append(h,p);document.getElementById('tipsList').prepend(card);}
-document.getElementById('addTip').onclick=()=>{const t=document.getElementById('newTitle').value.trim(),b=document.getElementById('newBody').value.trim();if(!t||!b){document.getElementById('status').textContent='Title aur instructions dono add karo.';return;}addTip(t,b);document.getElementById('newTitle').value='';document.getElementById('newBody').value='';document.getElementById('status').textContent='Tip is added to this local preview only.';};
-document.getElementById('saveHeading').onclick=()=>{const v=document.getElementById('bannerText').value.trim();if(v){const parts=v.split('. ');document.querySelector('h1').innerHTML='';document.querySelector('h1').textContent=v;document.getElementById('status').textContent='Heading updated in this local preview only.';}};
-document.getElementById('bannerImage').onchange=e=>{const f=e.target.files[0];if(!f)return;const url=URL.createObjectURL(f);document.querySelector('.hero-art').style.backgroundImage=`linear-gradient(#06152acc,#06152acc),url("${url}")`;document.querySelector('.hero-art').style.backgroundSize='cover';document.getElementById('status').textContent='Image preview loaded locally only; it is not uploaded to a server.';};
-document.getElementById('resetPreview').onclick=()=>location.reload();
+// CONFIG: paste your Supabase Project URL and anon/public key here.
+const SUPABASE_URL = "https://weoaqjbzdrppserfnhgx.supabase.co";
+const SUPABASE_ANON_KEY = "sb_publishable_M4Pl0C975kgVU8rDBXJVWA_MPAjGpGo";
+const WHATSAPP_GROUP_LINK = ""; // Paste your WhatsApp group invite link here.
+const configured = SUPABASE_URL.startsWith("https://") && !SUPABASE_URL.includes("PASTE_") && !SUPABASE_ANON_KEY.includes("PASTE_");
+const db = configured ? window.supabase.createClient(SUPABASE_URL,SUPABASE_ANON_KEY) : null;
+const $ = id => document.getElementById(id);
+$("year").textContent = new Date().getFullYear();
+$("ownerBtn").onclick=()=>$("ownerModal").classList.add("show");
+$("closeModal").onclick=()=>$("ownerModal").classList.remove("show");
+$("resetBtn").onclick=()=>resetForm();
+function esc(s=""){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
+function card(item){return `<article class="card">${item.image_url?`<img src="${esc(item.image_url)}" alt="${esc(item.title)}" loading="lazy">`:''}<div class="card-body"><span class="tag">${item.category==="free_sensi"?"FREE SENSI":item.category==="premium_sensi"?"PREMIUM · RS. 100":"TIPS & TRICKS"}</span><h3>${esc(item.title)}</h3><p>${esc(item.description)}</p>${item.category==="free_sensi"?'<span class="price">Rs. 0 · FREE</span>':''}${item.category==="premium_sensi"?'<span class="price">Rs. 100</span>':''}</div></article>`;}
+function render(items){for(const [cat,id] of [["free_sensi","freeGrid"],["premium_sensi","premiumGrid"],["tip","tipsGrid"]]){const found=items.filter(x=>x.category===cat);$(id).innerHTML=found.length?found.map(card).join(""):'<div class="empty">Abhi content add nahi kiya gaya.</div>';}}
+async function loadPublic(){if(!db){render([]);return;}const {data,error}=await db.from("site_content").select("*").eq("published",true).order("created_at",{ascending:false});if(error){console.error(error);return;}render(data||[]);}
+function message(id,msg){$(id).textContent=msg;}
+async function checkSession(){if(!db){message("loginMsg","Setup required: Supabase URL aur anon key configure karein.");return;}const {data}=await db.auth.getSession();if(data.session){const {data:owner}=await db.from("owner_users").select("user_id").eq("user_id",data.session.user.id).maybeSingle();if(owner){$("loginBox").classList.add("hidden");$("dashboard").classList.remove("hidden");await loadAdmin();}else{message("loginMsg","This account is not registered as an owner.");await db.auth.signOut();}}}
+$("loginBtn").onclick=async()=>{if(!db)return message("loginMsg","Supabase configuration missing.");const {error}=await db.auth.signInWithPassword({email:$("email").value,password:$("password").value});if(error)return message("loginMsg",error.message);await checkSession();};
+$("logoutBtn").onclick=async()=>{await db.auth.signOut();$("dashboard").classList.add("hidden");$("loginBox").classList.remove("hidden");};
+async function loadAdmin(){const {data,error}=await db.from("site_content").select("*").order("created_at",{ascending:false});if(error)return message("formMsg",error.message);$("adminList").innerHTML=(data||[]).map(x=>`<div class="admin-row"><div><b>${esc(x.title)}</b><br><small>${esc(x.category)} · ${x.published?"Published":"Draft"}</small></div><div class="actions"><button class="secondary" onclick="editItem('${x.id}')">Edit</button><button class="danger" onclick="deleteItem('${x.id}')">Delete</button></div></div>`).join("")||'<div class="empty">No content yet.</div>';window.itemsCache=data||[];}
+window.editItem=id=>{const x=window.itemsCache.find(i=>i.id===id);if(!x)return;$("itemId").value=x.id;$("category").value=x.category;$("title").value=x.title;$("description").value=x.description;$("published").checked=x.published;message("formMsg","Editing: "+x.title);window.scrollTo({top:0,behavior:"smooth"});};
+window.deleteItem=async id=>{if(!confirm("Delete this content permanently?"))return;const x=window.itemsCache.find(i=>i.id===id);const {error}=await db.from("site_content").delete().eq("id",id);if(error)return alert(error.message);if(x?.image_path)await db.storage.from("site-images").remove([x.image_path]);await loadAdmin();await loadPublic();};
+function resetForm(){$("contentForm").reset();$("itemId").value="";$("published").checked=true;}
+$("contentForm").onsubmit=async e=>{e.preventDefault();if(!db)return;message("formMsg","Saving...");let image_url=null,image_path=null;const old=window.itemsCache.find(x=>x.id===$("itemId").value);image_url=old?.image_url||null;image_path=old?.image_path||null;const file=$("photo").files[0];if(file){if(!file.type.startsWith("image/"))return message("formMsg","Please choose an image file.");if(file.size>5*1024*1024)return message("formMsg","Image must be 5 MB or smaller.");const path=`${Date.now()}-${file.name.replace(/[^a-zA-Z0-9._-]/g,"_")}`;const {error:upErr}=await db.storage.from("site-images").upload(path,file,{upsert:false});if(upErr)return message("formMsg",upErr.message);const {data:urlData}=db.storage.from("site-images").getPublicUrl(path);image_url=urlData.publicUrl;image_path=path;}
+const payload={category:$("category").value,title:$("title").value.trim(),description:$("description").value.trim(),published:$("published").checked,image_url,image_path};
+const id=$("itemId").value;const result=id?await db.from("site_content").update(payload).eq("id",id):await db.from("site_content").insert(payload);
+if(result.error)return message("formMsg",result.error.message);if(file&&old?.image_path)await db.storage.from("site-images").remove([old.image_path]);message("formMsg","Saved successfully!");resetForm();await loadAdmin();await loadPublic();};
+loadPublic();checkSession();
 </script>
 </body></html>
