@@ -60,7 +60,7 @@ label{font-size:13px;color:#b9cbe0;font-weight:700}.form-grid{display:grid;grid-
 // CONFIG: paste your Supabase Project URL and anon/public key here.
 const SUPABASE_URL = "https://weoaqjbzdrppserfnhgx.supabase.co";
 const SUPABASE_ANON_KEY = "sb_publishable_M4Pl0C975kgVU8rDBXJVWA_MPAjGpGo";
-const WHATSAPP_GROUP_LINK = ""; // Paste your WhatsApp group invite link here.
+const WHATSAPP_GROUP_LINK = "const WHATSAPP_GROUP_LINK = "; // Paste your WhatsApp group invite link here.
 const configured = SUPABASE_URL.startsWith("https://") && !SUPABASE_URL.includes("PASTE_") && !SUPABASE_ANON_KEY.includes("PASTE_");
 const db = configured ? window.supabase.createClient(SUPABASE_URL,SUPABASE_ANON_KEY) : null;
 const $ = id => document.getElementById(id);
