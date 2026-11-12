@@ -102,8 +102,6 @@ const id=$("itemId").value;const result=id?await db.from("site_content").update(
 if(result.error)return message("formMsg",result.error.message);if(file&&old?.image_path)await db.storage.from("site-images").remove([old.image_path]);message("formMsg","Saved successfully!");resetForm();await loadAdmin();await loadPublic();};
 loadPublic();checkSession();
 </script>
-  </script>
-
 <script>
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
